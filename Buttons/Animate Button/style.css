@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.click {
+    margin: 1rem;
+    padding: 20px 20px;
+    background: green;
+    color: #fff;
+    border: none;
+    outline: 0;
+    box-shadow: 0 10px grey;
+    border-radius: 10px;
+}
+
+.click:active {
+    /* box-shadow: 0 5px grey; */
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/* ---------------------------------------------------> */
+
+.hover {
+    background-color: orange;
+    /* height: 3rem; */
+    padding: 20px;
+    font-size: larger;
+    width: 200px;
+    outline: 0;
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    display: inline;
+    /* transition: all 0.5s; */
+    cursor: pointer;
+}
+
+.hover span::after {
+    content: ' \00bb';
+    display: inline;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.hover:hover span {
+    padding-right: 25px;
+}
+
+.hover:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+.hover span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
