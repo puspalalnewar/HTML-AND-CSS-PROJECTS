@@ -3,17 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
-
-}
 section{
     display: flex;
     justify-content: space-between;
-    /* background: rgb(122, 122, 131); */
-    /* border:1px solid rgb(230, 217, 217); */
+    background: rgb(122, 122, 131);
     color: white;
     padding: 1rem;
-    /* transition: all 3s; */
     transition: 0.4s
 }
 section:hover{

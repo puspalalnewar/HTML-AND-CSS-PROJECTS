@@ -23,24 +23,24 @@ sectionOne.addEventListener("click", () => {
 })
 sectionTwo.addEventListener("click", () => {
     if (countTwo) {
-        contentOne.style.display = "none";
-        sectionOne.style.background = "rgb(122, 122, 131)";
+        contentTwo.style.display = "none";
+        sectionTwo.style.background = "rgb(122, 122, 131)";
         countTwo = false;
     } else {
-        contentOne.style.display = "block";
-        sectionOne.style.background = "rgb(185, 127, 185)";
+        contentTwo.style.display = "block";
+        sectionTwo.style.background = "rgb(185, 127, 185)";
         countTwo = true;
     }
 
 })
 sectionThree.addEventListener("click", () => {
     if (countThree) {
-        contentOne.style.display = "none";
-        sectionOne.style.background = "rgb(122, 122, 131)";
+        contentThree.style.display = "none";
+        sectionThree.style.background = "rgb(122, 122, 131)";
         countThree = false;
     } else {
-        contentOne.style.display = "block";
-        sectionOne.style.background = "rgb(185, 127, 185)";
+        contentThree.style.display = "block";
+        sectionThree.style.background = "rgb(185, 127, 185)";
         countThree = true;
     }
 
