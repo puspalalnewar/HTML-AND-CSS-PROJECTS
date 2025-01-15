@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    /* background: rgb(122, 122, 131); */
+    /* border:1px solid rgb(230, 217, 217); */
+    color: white;
+    padding: 1rem;
+    /* transition: all 3s; */
+    transition: 0.4s
+}
+section:hover{
+    background-color: rgb(185, 127, 185);
+}
+.content-one{
+    display: none;
+    padding: 10px;
+    transition: 0.2s ease-out;
+}
+.content-two{
+    display: none;
+    padding: 10px;
+}
+.content-three{
+    display: none;
+    padding: 10px;
+}
