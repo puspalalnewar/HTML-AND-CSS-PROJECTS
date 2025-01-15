@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.progress-bar {
+    height: 10rem;
+    background: rgb(161, 137, 137);
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #817272;
+    width: 100%;
+    margin: 10px;
+}
+
+.progress {
+    background-color: rgb(16, 84, 161);
+    width: 1%;
+    padding: 1.2rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+button {
+   padding: 1rem;
+   border: none;
+   cursor: pointer;
+   background-color: rgb(51, 216, 208);
+}
