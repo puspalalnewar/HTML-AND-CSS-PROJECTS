@@ -6,20 +6,16 @@
 
 nav{
     background: rgb(60, 181, 140);
-    /* padding: 1rem; */
     color: white;
 }
 nav ul li{
-   
     padding: 0.5rem;
     list-style: none;
     text-align: center;
 }
 .dropdown{
-    
     min-width: 100px;
     display: none;
-    /* border-radius: 10px; */
     padding: 10px 0;
     position: absolute;
     top: 33px;
@@ -42,10 +38,12 @@ nav ul{
 }
 
 nav ul li:hover {
+    transition: all 0.5s;
     cursor: pointer;
-    background-color: red;
+    background-color: rgb(82, 130, 161);
 }
 
 .more:hover .dropdown{
     display: block;
+    transition: all 0.5s;
 }
