@@ -10,13 +10,15 @@
 
 const stickyBtn = document.getElementById('stickyBtn');
 
-window.addEventListener("scroll", ()=>{
-    if(window.pageYOffset > 20){
+function scrollTop(){
+    if(document.body.scrollTop> 100 || document.documentElement.scrollTop > 100){
         stickyBtn.style.display = "block";
     }else{
         stickyBtn.style.display = "none";
     }
-})
+}
+
+window.addEventListener("scroll", scrollTop);
 
 stickyBtn.addEventListener("click", ()=>{
     window.scrollTo({
