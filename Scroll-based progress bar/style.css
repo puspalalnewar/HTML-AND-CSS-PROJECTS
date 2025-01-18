@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    background: rgb(125, 100, 62);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+.progress-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 50px;
+}
+
+.container {
+    background-color: #817272;
+    width: 100%;
+}
+
+.progress {
+    height: 10px;
+    font-size: small;
+    background-color: rgb(16, 84, 161);
+    width: 1%;
+    color: #fff;
+    font-weight: 700;
+}
