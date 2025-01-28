@@ -9,7 +9,6 @@ nav{
     justify-content: space-between;
     align-items: center;
     background-color: aquamarine;
-    z-index: 2;
 }
 ul{
     display: flex;
