@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* .left{
+    background: blue;
+    color: white;
+} */
+
+/* .right::selection  {
+    background-color: yellow;
+    color: red;
+}
+input::placeholder {
+    padding: 10px;
+    color: red;
+}
+li::marker{
+    color: red;
+} */
+
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+.line::before, .line::after {
+    content: "";
+    background-color: red;
+    margin: 4px;
+    padding: 2px;
+    flex: 1;
+    /* display: flex; */
+}
+
