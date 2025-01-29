@@ -3,9 +3,13 @@ const sidebar = document.getElementById('sidebar');
 const crossBar = document.querySelector(".cross");
 
 menuBtn.addEventListener('click', () => {
-    console.log("I am clicked!!");
-    sidebar.classList.toggle('active');
+    sidebar.style.left = "0"
 });
-crossBar.addEventListener("click", ()=>{
-    sidebar.classList.toggle('active');
+crossBar.addEventListener("click", () => {
+    sidebar.style.left = "-250px"
+})
+window.addEventListener("click", (e)=>{
+    if(!sidebar.contains(e.target) && e.target!= menuBtn){
+        sidebar.style.left = "-250px"
+    }
 })
