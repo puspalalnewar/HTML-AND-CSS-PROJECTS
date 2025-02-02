@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: rgb(87, 165, 146);
-}
-
 .navbar {
     background-color: #21c542;
     height: 3rem;
@@ -56,7 +52,7 @@ a:hover{
 .myLinks {
     display: none;
     position: absolute;
-    top: 45px;
+    top: 48px;
     background-color: #245342;
     color: white;
     width: 100%;
