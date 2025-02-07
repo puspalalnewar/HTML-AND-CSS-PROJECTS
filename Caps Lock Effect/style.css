@@ -10,3 +10,10 @@ input{
     margin-top: 1rem;
     padding: 0.7rem;
 }
+.warning{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: red;
+    color: white;
+    display: none;
+}

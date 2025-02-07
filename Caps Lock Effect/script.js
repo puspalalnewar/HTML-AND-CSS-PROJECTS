@@ -1,12 +1,12 @@
 const input = document.querySelector("input");
+const warning = document.querySelector(".warning");
 
-let capsLock = false;
+
 document.addEventListener("keyup", (e)=>{
-    if(e.code == "CapsLock" && capsLock == false){
-        alert("CapsLock Activated!!");
-        capsLock = true;
-    }else if(e.code == "CapsLock" && capsLock == true){
-        alert("CapsLock Off!!");
-        capsLock = false;
+    if (e.getModifierState("CapsLock")) {
+        warning.innerHTML = "CapsLock On!!";
+        warning.style.display = "block";
+    }else{
+        warning.style.display = "none";
     }
 })
