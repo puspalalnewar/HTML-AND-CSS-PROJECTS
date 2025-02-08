@@ -2,6 +2,6 @@
 
     > Screenshot for the reference
 
-![Image](images/image.png)
+![Image](Images/image.png)
 
 credits:- [Puspalal Newar](https://github.com/puspalalnewar)
