@@ -1,0 +1,9 @@
+<p contenteditable="true">This is me!!</p>
+<h1>Git and GitHub</h1>
+<textarea name="" id="">This is textarea!!</textarea>
+
+/* [contenteditable] {
+    outline: 0;
+} */
+
+
