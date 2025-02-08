@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pagination {
+    position: absolute;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.active{
+    background-color: red;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 0.7rem 1rem;
+    float: left;
+    transition: background-color 0.3s;
+}
+
+a:hover:not(.active) {
+    background-color: rgb(121, 110, 110);
+}
