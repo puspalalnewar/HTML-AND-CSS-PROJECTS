@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: rgb(71, 153, 71);
+}
+
+ul{
+    display: flex;
+}
+
+i{
+    margin-right: 4px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li{
+    display: inline;
+    padding: 1rem;
+}
+ul li:hover{
+    background-color: gray;
+}
+.active{
+    background-color: rgb(94, 118, 188);
+}
