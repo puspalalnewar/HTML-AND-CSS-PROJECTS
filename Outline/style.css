@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20rem;
+    height: 10rem;
+    outline: 2px solid rgb(235, 32, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1rem solid rgb(207, 152, 152);
+    outline: 1rem solid red;
+}
+
+.container p {
+    text-align: center;
+}
