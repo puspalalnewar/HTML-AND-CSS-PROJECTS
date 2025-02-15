@@ -1,47 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    display: flex;
-    justify-content: center;
+::-webkit-scrollbar {
+    width: 10px;
+    /* background-color: rgb(227, 195, 195); */
 }
 
-.data{
-    position: relative;
-    background-image: url("https://images.pexels.com/photos/30417751/pexels-photo-30417751/free-photo-of-misty-mountain-landscape-with-solitary-hiker.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
-    color: white;
-    background-size: cover;
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
 }
-.data{
-    width: 20rem;
-    height: 20rem;
-    background-color: red;
-}
-.top-left{
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-.top-right{
-    position: absolute;
-    right: 0;
-}
-.bottom-left{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-.bottom-right{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-.center{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
+::-webkit-scrollbar-thumb {
+    background: #5c3737; 
+  }
