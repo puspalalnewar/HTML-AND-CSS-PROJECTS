@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    padding: 1rem;
+    border: none;
+    outline: none;
+    background-color: rgb(90, 185, 131);
+    color: #fff;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+a {
+    display: block;
+    padding: 1rem;
+    width: 130px;
+    background-color: gray;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    background-color: rgb(68, 88, 101);
+}
+
+.links {
+    position: absolute;
+    display: none;
+}
+
+.box:hover .links {
+    display: block;
+}
