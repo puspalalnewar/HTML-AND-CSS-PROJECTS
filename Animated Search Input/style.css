@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1rem;
+}
+
+h2{
+    margin-bottom: 1rem;
+}
+input[type = text] {
+    width: 15%;
+    font-family: 16px;
+    background-image: url("searchIcon.png");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding: 12px 20px 12px 40px;
+    outline: none;
+    overflow: hidden;
+    transition: width 0.4s ease-in-out;
+}
+
+input:focus {
+    border: 2px solid rgb(189, 181, 181);
+    width: 100%;
+}
