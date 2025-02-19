@@ -14,7 +14,7 @@ h2{
 input[type = text] {
     width: 15%;
     font-family: 16px;
-    background-image: url("searchIcon.png");
+    background-image: url("./Images/searchIcon.png");
     background-position: 10px 10px;
     background-repeat: no-repeat;
     background-size: 20px;
