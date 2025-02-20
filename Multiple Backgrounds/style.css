@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    background-image: url("./Images/tree.jpeg"), url("./Images/paper.jpeg");
+    background-repeat: no-repeat, repeat;
+    background-position: right bottom, left top;
+    padding: 20px;
+    background-size: 5rem;
+}
