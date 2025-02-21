@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(44, 30, 57);
+}
+
+h2 {
+    text-shadow: 2px 2px;
+    color: white;
+}
+
+h1 {
+    color: aliceblue;
+    text-shadow: 2px 2px red;
+}
