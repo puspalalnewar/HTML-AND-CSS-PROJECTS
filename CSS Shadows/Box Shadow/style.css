@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1rem;
+}
+
+.box {
+    width: 10rem;
+    height: 10rem;
+    background-color: orange;
+    box-shadow: 10px 10px 3px 12px rgb(27, 175, 224);
+}
+
+.box1 {
+    background-color: rgb(39, 217, 39);
+    width: 10rem;
+    height: 10rem;
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(23, 20, 20, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+}
+
+.header {
+    height: 70%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    background: blueviolet;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
