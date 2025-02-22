@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1rem;
+}
+
+.box {
+    background-color: red;
+    height: 5rem;
+    width: 15%;
+    transition: width 3s;
+    margin-bottom: 1rem;
+}
+
+.box:hover {
+    width: 100%;
+}
+
+.box2 {
+    width: 5.5rem;
+    background-color: greenyellow;
+    height: 5rem;
+    transition: width 3s, height 5s;
+}
+
+.box2:hover {
+    width: 10rem;
+    height: 10rem;
+}
