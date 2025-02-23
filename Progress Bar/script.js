@@ -4,20 +4,22 @@ const btn = document.querySelector(".btn");
 
 btn.addEventListener("click", moveProgress);
 
-let width = 1;
+let width = 0;
 
 function moveProgress() {
-  if (width === 1) {
+  if (width === 0) {
     const timer = setInterval(frame, 10);
     function frame() {
       if (width >= 100) {
+        width = 0;
         clearInterval(timer);
-        width = 1;
       } else {
         width++;
         progress.style.width = width + "%";
         progress.innerHTML = width + "%";
       }
+      // width = 0;
     }
   }
+  
 }

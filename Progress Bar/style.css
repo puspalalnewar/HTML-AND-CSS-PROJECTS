@@ -18,19 +18,22 @@
     background-color: #817272;
     width: 100%;
     margin: 10px;
+
 }
 
 .progress {
     background-color: rgb(16, 84, 161);
-    width: 1%;
-    padding: 1.2rem;
+    width: 0%;
+    height: 3rem;
     color: #fff;
     font-weight: 700;
+    display: flex;
+    align-items: center;
 }
 
 button {
-   padding: 1rem;
-   border: none;
-   cursor: pointer;
-   background-color: rgb(51, 216, 208);
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(51, 216, 208);
 }
