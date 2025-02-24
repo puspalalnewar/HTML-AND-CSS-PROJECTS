@@ -18,8 +18,9 @@ function moveProgress() {
         progress.style.width = width + "%";
         progress.innerHTML = width + "%";
       }
-      // width = 0;
     }
   }
   
 }
+
+moveProgress();
