@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.square {
+    height: 5rem;
+    width: 5rem;
+    background-color: brown;
+}
+
+.circle {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: brown;
+}
+
+.triangle-up {
+    border-right: 50px solid brown;
+    border-bottom: 50px solid transparent;
+    border-top: 50px solid transparent;
+    transform: rotate(90deg);
+}
+
+.triangle-down {
+    border-right: 50px solid brown;
+    border-bottom: 50px solid transparent;
+    border-top: 50px solid transparent;
+    transform: rotate(-90deg);
+}
+
+.triangle-left {
+    border-right: 50px solid brown;
+    border-bottom: 50px solid transparent;
+    border-top: 50px solid transparent;
+    transform: rotate(360deg);
+}
+
+.triangle-right {
+    border-right: 50px solid brown;
+    border-bottom: 50px solid transparent;
+    border-top: 50px solid transparent;
+    transform: rotate(180deg);
+}
+
+.oval {
+    height: 5rem;
+    width: 11rem;
+    border-radius: 50%;
+    background-color: brown;
+}
+
+.rectangle {
+    height: 5rem;
+    width: 8rem;
+    background-color: brown;
+}
+
+.trapezoid{
+    width: 120px;
+    border-bottom: 50px solid brown;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+}
+
+.parallelogram{
+    height: 5rem;
+    width: 11rem;
+    background-color: brown;
+    transform: skewX(20deg);
+}
