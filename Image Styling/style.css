@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1rem;
+    text-align: center;
+}
+
+.styleOne {
+    border-radius: 15px;
+}
+
+.styleTwo {
+    border-radius: 50%;
+}
+
+.styleThree {
+    padding: 10px;
+    border: 1px solid rgb(179, 161, 161);
+    border-radius: 10px;
+}
+
+.styleThree:hover {
+    box-shadow: 0 0 2px 1px rgb(116, 120, 122);
+}
