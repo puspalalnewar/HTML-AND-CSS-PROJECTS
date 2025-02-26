@@ -8,9 +8,10 @@ body {
     background-color: rgb(23, 21, 21);
     color: white;
     text-align: center;
+    padding: 1rem;
 }
 
-h2{
+h2 {
     margin-bottom: 1rem;
 }
 
@@ -51,6 +52,8 @@ h2{
     opacity: 1;
 }
 
+/* Overlay - 2 */
+
 .box-2 {
     display: inline-block;
     position: relative;
@@ -79,7 +82,7 @@ h2{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(36, 232, 53);
+    background-color: rgb(16, 161, 28);
     opacity: 1;
 }
 
@@ -89,4 +92,101 @@ h2{
 
 .box-2:hover .overlay-2 {
     opacity: 1;
+}
+
+/* Overlay - 3 */
+
+.box-3 {
+    position: relative;
+    display: inline-block;
+    width: 15rem;
+    overflow: hidden;
+}
+
+.avtar-3 {
+    width: 100%;
+}
+
+.overlay-3 {
+    position: absolute;
+    background-color: #008CBA;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    transition: 1s all;
+    transform: translateY(-100%);
+}
+
+.text-3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.box-3:hover .overlay-3 {
+    transform: translateY(0%);
+}
+
+/* 2nd Way For overlay-3 */
+
+/* .overlay-3 {
+    position: absolute;
+    transition: 0.5s ease;
+    width: 100%;
+    bottom: 100%;
+    background-color: #008CBA;
+    height: 0;
+}
+
+.text-3 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box-3:hover .overlay-3 {
+    bottom: 0;
+    height: 100%;
+} */
+
+
+/* Overlay - 4 */
+
+.box-4 {
+    display: inline-block;
+    position: relative;
+    width: 15rem;
+    overflow: hidden;
+}
+
+.avtar-4 {
+    width: 100%;
+}
+
+.overlay-4 {
+    position: absolute;
+    background-color: #008CBA;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    transition: 1s all;
+    transform: translateX(-100%);
+}
+
+.box-4:hover .overlay-4 {
+    transform: translateY(0%);
+}
+
+.text-4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
 }
