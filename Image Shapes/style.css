@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+p {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.imageOne {
+    height: 15rem;
+    width: 15rem;
+    clip-path: circle(50%);
+}
+
+.imageTwo {
+    height: 15rem;
+    width: 15rem;
+    clip-path: circle(40%);
+}
+
+.imageThree {
+    height: 15rem;
+    width: 15rem;
+    clip-path: circle(60%);
+}
+
+.imageFour {
+    clip-path: ellipse(50% 35%);
+}
+
+.imageFive {
+    clip-path: ellipse(50% 35% at right);
+}
