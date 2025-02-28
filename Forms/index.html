@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <form id="myForm">
         <label for="first_name">First Name:</label><br>
@@ -14,7 +16,18 @@
         <input type="text" placeholder="Enter here..."><br>
         <button type="submit">Submit</button>
     </form>
-    <p id="message"></p>
+    <h2>Radio Buttons</h2>
+
+    <p>Choose your favorite Web language:</p>
+    <form id="myForm2">
+        <input type="radio" value="HTML" name="fav_language">
+        <label for="html">HTML</label><br>
+        <input type="radio" value="CSS" name="fav_language">
+        <label for="css">CSS</label><br>
+        <input type="radio" value="JavaScript" name="fav_language">
+        <label for="javascript">JavaScript</label>
+    </form>
 </body>
 <script src="script.js"></script>
+
 </html>

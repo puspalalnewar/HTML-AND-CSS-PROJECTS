@@ -8,22 +8,28 @@ body {
     background-color: black;
     color: #fff;
     padding: 1rem;
-    /* text-align: center; */
 }
 
-input {
+#myForm input {
     height: 3rem;
     margin-bottom: 5px;
     outline-color: yellow;
-    /* border: none; */
 }
 
-input::placeholder {
+button {
+    padding: 10px 10px;
+}
+
+#myForm input::placeholder {
     color: red;
     background-color: black;
     padding: 16px;
 }
 
-button {
-    padding: 10px 10px;
+#myForm2 label {
+    margin-left: 10px;
+}
+
+h2{
+    margin-top: 16px;
 }
