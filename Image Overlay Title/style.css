@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  padding: 1rem;
+}
+
+.box {
+  display: block;
+  border: 1px solid black;
+  width: 15rem;
+  position: relative;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay-title {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  padding: 1rem;
+  color: white;
+  transition: 0.5s all;
+}
+
+.box:hover .overlay-title {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: 0.5s all;
+}
