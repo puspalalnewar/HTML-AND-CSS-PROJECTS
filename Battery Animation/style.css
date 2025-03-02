@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+h2{
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+
+.fa{
+    font-size: 120px;
+}
