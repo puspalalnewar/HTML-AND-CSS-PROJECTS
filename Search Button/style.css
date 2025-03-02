@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+}
+
+.box {
+  width: 100%;
+  display: flex;
+}
+
+.icon {
+  background-color: rebeccapurple;
+  display: inline-block;
+  padding: 10px;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+}
+
+#search {
+  width: 80%;
+  padding: 10px;
+  background-color: #ede0e0; /* Replace with your desired color */
+  border: none;
+}
+
+#search:focus {
+  outline-width: 2px;
+  outline-color: rgb(160, 209, 86);
+  outline-style: solid;
+}
+
+#search::placeholder {
+  color: rgb(128, 62, 62);
+  width: 100%;
+}
+
+.icon:hover {
+  background-color: rgb(147, 105, 189);
+}
