@@ -1,15 +1,28 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body{
-    padding: 1rem;
+    /* text-align: center;
+    background-color: rgb(72, 64, 79); */
 }
 
-.container{
-    height: 5rem;
-    background-color: aquamarine;
+nav{
+    padding: 10px 20px;
+    background: #c09b9b;
+    text-align: center;
+    color: white;
 }
 
+.progress-bar{
+    height: 10px;
+    background-color: rgb(92, 88, 88);
+}
+
+.progress{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
