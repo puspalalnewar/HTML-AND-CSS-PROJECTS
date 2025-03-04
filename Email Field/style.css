@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(13, 1, 1);
+  color: #fff;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+input[type="email"] {
+  padding: 10px 14px;
+}
+
+button {
+  padding: 10px 14px;
+}
