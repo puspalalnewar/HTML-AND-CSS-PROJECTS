@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px 14px;
+}
+
+button {
+  padding: 10px 14px;
+}
