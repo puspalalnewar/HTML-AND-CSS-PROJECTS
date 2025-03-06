@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(20, 195, 52);
+  text-align: center;
+}
