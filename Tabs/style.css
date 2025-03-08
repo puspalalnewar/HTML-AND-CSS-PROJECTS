@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.tabs {
+  width: 90%;
+  height: 20rem;
+  margin-top: 10px;
+  border: 2px solid gray;
+}
+
+.top {
+  color: black;
+  border-bottom: 2px solid gray;
+}
+ul li {
+  display: inline-block;
+  padding: 1rem;
+  width: 5rem;
+  text-align: center;
+}
+ul li:hover {
+  background-color: rgb(61, 70, 70);
+  cursor: pointer;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.london,
+.paris,
+.tokyo {
+  padding: 10px;
+  display: none;
+}
