@@ -1,28 +1,51 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    /* text-align: center;
-    background-color: rgb(72, 64, 79); */
+/* .diamond {
+  margin: 80px 0;
+  border-top: 300px solid red;
+  border-left: 250px solid transparent;
+  border-right: 250px solid transparent;
+  position: relative;
+  display: block;
+}
+.diamond::before {
+  position: absolute;
+  content: "";
+  width: 400px;
+  border-bottom: 50px solid red;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  top: -350px;
+  left: -250px;
+} */
+
+
+
+.triangle-down {
+    margin: 80px 0;
+    width: 5rem;
+    height: 5rem;
+    border-top: 100px solid red;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-radius: 50%;
 }
 
-nav{
-    padding: 10px 20px;
-    background: #c09b9b;
-    text-align: center;
-    color: white;
-}
+/* .moon{
+    height: 100px;
+    width: 100px;
+    box-shadow: 20px 20px red;
+    border-radius: 50%;
+} */
 
-.progress-bar{
-    height: 10px;
-    background-color: rgb(92, 88, 88);
-}
-
-.progress{
-    height: 100%;
-    width: 100%;
-    /* background-color: red; */
-}
+/* .pacman{
+    border: 50px solid red;
+    border-radius: 50%;
+    border-right: 50px solid transparent;
+    height: 5rem;
+    width: 5rem;
+} */
