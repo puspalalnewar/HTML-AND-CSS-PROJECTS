@@ -1,5 +1,9 @@
 const slides = document.querySelectorAll(".slide");
 
+for(let i = 0; i<slides.length; i++){
+  
+}
+
 let counter = 0;
 
 slides.forEach((ele, idx) => {
@@ -26,3 +30,5 @@ const slideImage = () => {
     ele.style.transform = `translateX(-${counter * 100}%)`;
   });
 };
+
+
