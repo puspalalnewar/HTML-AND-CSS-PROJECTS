@@ -1,10 +1,10 @@
 <p contenteditable="true">This is me!!</p>
 <h1>Git and GitHub</h1>
 <textarea name="" id="">This is textarea!!</textarea>
-
 /* [contenteditable] {
     outline: 0;
 } */
+
 
 -------A alert message, when page reload-----------
 document.addEventListener("DOMContentLoaded", () => {
@@ -14,6 +14,24 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   btn.click();
 });
+
+
+<input type="number" placeholder="Enter number...">
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
+  appearance: none;
+}
+
+dangerously html string------------------->
+const App = () => {
+  const data = 'lorem <b>ipsum</b>';
+  return (
+    <div>
+      {data}
+    </div>
+  );
+}
+export default App;
+
 
 
 
