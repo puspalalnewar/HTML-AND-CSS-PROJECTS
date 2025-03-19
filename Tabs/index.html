@@ -7,40 +7,30 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="tabs">
-        <div class="top">
-          <ul>
-            <li>London</li>
-            <li>Paris</li>
-            <li>Tokyo</li>
-          </ul>
-        </div>
-        <div class="london">
-          <h2>London</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-            cum facere eveniet fuga vel repellendus? Minus itaque natus neque
-            aut.
-          </p>
-        </div>
-        <div class="paris">
-          <h2>Paris</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-            cum facere eveniet fuga vel repellendus? Minus itaque natus neque
-            aut.
-          </p>
-        </div>
-        <div class="tokyo">
-          <h2>Tokyo</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-            cum facere eveniet fuga vel repellendus? Minus itaque natus neque
-            aut.
-          </p>
-        </div>
-      </div>
+    <h2>Tabs</h2>
+    <p>Click on the buttons inside the tabbed menu:</p>
+
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'London')">
+        London
+      </button>
+      <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+      <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+    </div>
+
+    <div id="London" class="tabcontent">
+      <h3>London</h3>
+      <p>London is the capital city of England.</p>
+    </div>
+
+    <div id="Paris" class="tabcontent">
+      <h3>Paris</h3>
+      <p>Paris is the capital of France.</p>
+    </div>
+
+    <div id="Tokyo" class="tabcontent">
+      <h3>Tokyo</h3>
+      <p>Tokyo is the capital of Japan.</p>
     </div>
   </body>
   <script src="script.js"></script>

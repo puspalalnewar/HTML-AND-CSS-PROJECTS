@@ -8,15 +8,6 @@ body {
   text-align: center;
 }
 
-.cars {
-  margin-top: 10px;
-  text-align: center;
-  width: 10rem;
+input{
   padding: 10px;
-}
-
-.cars,
-::picker(select) {
-  /* -webkit-appearance: base-select; */
-  appearance: base-select;
 }

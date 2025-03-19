@@ -1,20 +1,13 @@
-const london = document.querySelector(".london");
-const paris = document.querySelector(".paris");
-const tokyo = document.querySelector(".tokyo");
-const li = document.querySelectorAll("li");
-
-li[0].addEventListener("click", () => {
-  london.style.display = "block";
-  paris.style.display = "none";
-  tokyo.style.display = "none";
-});
-li[1].addEventListener("click", () => {
-  paris.style.display = "block";
-  london.style.display = "none";
-  tokyo.style.display = "none";
-});
-li[2].addEventListener("click", () => {
-  tokyo.style.display = "block";
-  paris.style.display = "none";
-  london.style.display = "none";
-});
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
