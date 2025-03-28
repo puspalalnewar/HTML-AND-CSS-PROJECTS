@@ -1,14 +1,6 @@
-const text = document.querySelector("h2");
+const fileName = document.querySelector(".fileName");
+const input = document.querySelector("input");
 
-let str = "Hello World!!";
-let idx = 0;
-
-function typeWriter(){
-  if(idx < str.length){
-    text.innerHTML += str.charAt(idx);
-    idx++;
-    setTimeout(typeWriter, 300);
-  }
-}
-
-typeWriter();
+input.addEventListener("input", (e)=>{
+  console.log(e.target.files[0].name);
+})

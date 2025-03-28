@@ -8,6 +8,12 @@ nav {
   position: fixed;
   width: 100%;
   padding: 10px;
-  background-color: rgb(20, 195, 52);
+  background-color: rgb(26, 58, 186);
+  background-color: black;
   text-align: center;
+  color: white;
+}
+
+.blure {
+  filter: blur(2px);
 }
