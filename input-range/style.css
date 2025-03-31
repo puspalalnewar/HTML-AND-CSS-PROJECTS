@@ -17,7 +17,6 @@ input {
     height: 15px;
 }
 
-
 input::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
