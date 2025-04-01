@@ -1,40 +1,65 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box .spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid red;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 h1 {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .container {
-    width: 60%;
-    max-width: 600px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 60%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .item {
-    width: 100%;
-    background: white;
-    padding: 15px;
-    margin: 10px 0;
-    border-radius: 5px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    font-size: 18px;
+  width: 100%;
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-size: 18px;
 }
 
 .loader {
-    text-align: center;
-    font-size: 18px;
-    margin: 20px;
-    padding: 10px;
-    display: none;
+  text-align: center;
+  font-size: 18px;
+  margin: 20px;
+  padding: 10px;
+  display: none;
 }
