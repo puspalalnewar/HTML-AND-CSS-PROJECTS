@@ -1,27 +1,27 @@
 const ans = document.querySelector(".ans");
-const minus = document.querySelector(".minus");
 const plus = document.querySelector(".plus");
+const minus = document.querySelector(".minus");
 const input = document.querySelector("input");
 const reset = document.querySelector(".reset");
 
-function minusFun() {
-  const inVal = parseInt(input.value);
-  const counter = parseInt(ans.innerText);
-  ans.innerHTML = counter - inVal;
-}
+let counter = 0;
+let currVal = parseInt(ans.innerHTML);
 
 function plusFun() {
-  const inVal = parseInt(input.value);
-  console.log(inVal);
-  const counter = parseInt(ans.textContent);
-  console.log(counter);
-  ans.innerHTML = counter + inVal;
+  const inValue = parseInt(input.value);
+  counter += inValue;
+  ans.innerHTML = counter;
 }
 
-function resetFun() {
-  ans.innerHTML = 0;
+function minusFun() {
+  const inValue = parseInt(input.value);
+  counter -= inValue;
+  ans.innerHTML = counter;
 }
 
-minus.addEventListener("click", minusFun);
 plus.addEventListener("click", plusFun);
-reset.addEventListener("click", resetFun);
+minus.addEventListener("click", minusFun);
+reset.addEventListener("click", () => {
+  counter = 0;
+  ans.innerHTML = counter;
+});
