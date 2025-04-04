@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(69, 73, 73);
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.left h2 {
+  margin-left: 10px;
+}
+
+.lists {
+  display: flex;
+  gap: 10px;
+}
+
+.lists li {
+  list-style: none;
+  padding: 10px;
+}
+
+.lists li:hover {
+  background-color: gainsboro;
+  cursor: pointer;
+}
+
+#ham {
+  display: none;
+  margin-right: 10px;
+  font-size: larger;
+  padding: 10px;
+}
+
+.links {
+  position: absolute;
+  background-color: rgb(106, 95, 95);
+  height: 100vh;
+  width: 0;
+  top: 0;
+  right: 0;
+  transition: width 0.5s;
+  white-space: nowrap;
+}
+
+.links li {
+  list-style: none;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
+.cross-icon {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  #ham {
+    display: block;
+  }
+  .lists {
+    display: none;
+  }
+}
