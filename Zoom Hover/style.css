@@ -15,8 +15,10 @@ p{
     background-color: green;
     transition: transform .2s;
     margin: 0 auto;
+    transition: 1s all;
 }
 
 .box:hover{
     transform :scale(1.3);
+    transition: 1s all;
 }
