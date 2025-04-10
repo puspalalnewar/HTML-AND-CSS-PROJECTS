@@ -16,7 +16,7 @@ body {
     width: 10rem;
     height: 10rem;
     background-color: orange;
-    box-shadow: 10px 10px 3px 12px rgb(27, 175, 224);
+    box-shadow: 10px 10px 10px rgb(27, 175, 224);
 }
 
 .box1 {
@@ -24,7 +24,7 @@ body {
     width: 10rem;
     height: 10rem;
     margin-top: 2rem;
-    box-shadow: 0 4px 8px 0 rgba(23, 20, 20, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(210, 39, 39, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: white;
 }
 
