@@ -6,34 +6,44 @@
 
 body {
   background-color: black;
-  color: #ffffff;
+  color: #fff;
+  font-family: sans-serif;
 }
 
 nav {
-  background-color: gray;
+  background-color: greenyellow;
   position: fixed;
   width: 100%;
-  top: 0;
-}
-
-nav ul {
-  display: flex;
 }
 
 nav ul li {
+  display: inline-block;
   list-style: none;
   padding: 10px;
 }
 
-nav ul li:first-child {
-  background-color: violet;
-}
-
 nav ul li:hover {
-  background: red;
-  cursor: pointer;
+  background: skyblue;
 }
 
-main p {
-  padding: 0 5px;
+nav ul li a {
+  text-decoration: none;
+}
+
+.content {
+  margin-left: 5px;
+}
+
+.scroll-top {
+  width: 50px;
+  height: 50px;
+  background-color: blueviolet;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  cursor: pointer;
 }
