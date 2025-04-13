@@ -1,29 +1,15 @@
-const scrollTop = document.querySelector(".scroll-top");
-const navbar = document.querySelector("nav");
-const content = document.querySelector(".content");
+const nav = document.querySelector("nav");
 
-scrollTop.addEventListener("click", () => {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth",
-  });
-});
+let prevScroll = pageYOffset;
 
-document.addEventListener("scroll", showIcon);
-
-function showIcon() {
-  let pageOff = pageYOffset;
-  if (pageOff > 20) {
-    scrollTop.style.visibility = "visible";
+function scrollTop() {
+  let currentScroll = window.pageYOffset;
+  if (prevScroll > currentScroll) {
+    nav.style.top = "0";
   } else {
-    scrollTop.style.visibility = "hidden";
+    nav.style.top = "-50px";
   }
+  prevScroll = currentScroll;
 }
 
-document.addEventListener("contextmenu", (e) => {
-  e.preventDefault();
-})
-
-document.addEventListener("contextmenu", (e) => {
-  e.stopPropagation();
-}, "true")
+window.addEventListener("scroll", scrollTop);

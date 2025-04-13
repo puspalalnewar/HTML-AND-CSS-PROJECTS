@@ -2,48 +2,58 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 body {
   background-color: black;
   color: #fff;
-  font-family: sans-serif;
 }
 
 nav {
-  background-color: greenyellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: burlywood;
+  color: black;
   position: fixed;
   width: 100%;
+  transition: 0.5s all;
+}
+
+.logo {
+  padding: 5px;
 }
 
 nav ul li {
-  display: inline-block;
   list-style: none;
+  display: flex;
   padding: 10px;
 }
 
-nav ul li:hover {
-  background: skyblue;
-}
-
-nav ul li a {
-  text-decoration: none;
-}
-
-.content {
-  margin-left: 5px;
-}
-
-.scroll-top {
-  width: 50px;
-  height: 50px;
-  background-color: blueviolet;
-  border-radius: 50%;
+nav ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  right: 10px;
-  bottom: 20px;
+}
+
+nav ul li:first-child {
+  background-color: azure;
+}
+
+nav ul li:hover {
+  background-color: azure;
   cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(183, 187, 70);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(33, 153, 218);
+  border-radius: 10px;
 }
