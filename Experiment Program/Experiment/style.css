@@ -8,21 +8,16 @@ body {
   background-color: black;
   color: #fff;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  text-align: center;
 }
 
-h2 {
-  text-decoration: underline;
-  text-underline-offset: 10px;
-  margin-bottom: 20px;
-}
-
-input[type="number"] {
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: gray;
   padding: 10px;
-  font-size: 14px;
+  transition: 0.5s all;
 }
 
-input[type="number"]::-webkit-inner-spin-button,
-::-webkit-outer-spin-button {
-  appearance: none;
+nav h2 {
+  text-align: center;
 }
