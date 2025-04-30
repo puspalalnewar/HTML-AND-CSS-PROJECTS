@@ -5,19 +5,46 @@
 }
 
 body {
-  background-color: black;
-  color: #fff;
+  /* background-color: black; */
+  /* color: #fff; */
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-nav {
-  position: fixed;
-  width: 100%;
-  background-color: gray;
-  padding: 10px;
-  transition: 0.5s all;
+.main-box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
-nav h2 {
-  text-align: center;
+.one,
+.two,
+.three,
+.four {
+  /* width: 100%; */
+  height: 40vh;
+  border: 1px solid black;
+  margin: 30px 10px 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.one {
+  background-color: gray;
+}
+
+.one button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.two {
+  background-color: aquamarine;
+}
+.three {
+  background-color: rgb(92, 109, 109);
+}
+.four {
+  background-color: blanchedalmond;
 }

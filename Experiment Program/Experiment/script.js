@@ -1,15 +1,16 @@
-const nav = document.querySelector("nav");
+const one = document.querySelector(".one");
+const four = document.querySelector(".four");
+const three = document.querySelector(".three");
+const btn = document.querySelector("button");
 
-let prevScroll = window.pageYOffset;
+console.log(four)
 
-function scrollTop() {
-  let currScroll = window.pageYOffset;
-  if (prevScroll > currScroll) {
-    nav.style.top = "0";
-  } else {
-    nav.style.top = "-50px";
-  }
-  prevScroll = currScroll;
+function moveToDivFour(){
+    console.log("Move to div four")
+    window.scrollTo({
+        top : three.offsetTop,
+        behavior: "smooth"
+    })
 }
 
-document.addEventListener("scroll", scrollTop)
+btn.addEventListener("click", moveToDivFour)
