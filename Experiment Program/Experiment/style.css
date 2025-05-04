@@ -5,46 +5,54 @@
 }
 
 body {
-  /* background-color: black; */
-  /* color: #fff; */
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: sans-serif;
 }
 
-.main-box {
+header nav {
   display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-
-.one,
-.two,
-.three,
-.four {
-  /* width: 100%; */
-  height: 40vh;
-  border: 1px solid black;
-  margin: 30px 10px 10px 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.one {
-  background-color: gray;
-}
-
-.one button {
-  padding: 10px 20px;
-  cursor: pointer;
-  border: none;
-}
-
-.two {
+  justify-content: space-between;
   background-color: aquamarine;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 2px 5px rgb(142, 131, 131);
 }
-.three {
-  background-color: rgb(92, 109, 109);
+
+.left h1 {
+  margin-left: 8px;
 }
-.four {
-  background-color: blanchedalmond;
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  padding: 15px;
+}
+
+nav ul li:hover {
+  background-color: rgb(203, 201, 201);
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+nav ul li:first-child {
+  background: rgb(203, 201, 201);
+}
+
+main p {
+  padding: 50px 6px 0 6px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(61, 65, 61);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(178, 225, 24);
 }
