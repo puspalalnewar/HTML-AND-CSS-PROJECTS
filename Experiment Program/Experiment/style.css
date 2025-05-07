@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -5,15 +6,21 @@
 }
 
 body {
-  font-family: sans-serif;
   display: flex;
   justify-content: center;
+  font-family: "Ubuntu", sans-serif;
 }
 
-.egg {
-  width: 100px;
-  height: 150px;
-  margin-top: 10px;
-  background-color: red;
-  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(215, 219, 223);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(172, 168, 168);
+  border: 3px solid transparent;
+  background-clip: content-box;
 }
