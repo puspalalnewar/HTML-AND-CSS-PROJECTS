@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+  background-color: rgb(36, 33, 33);
+  text-align: center;
+}
+
+.box {
+  border: 1px solid skyblue;
+  width: 200px;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+u {
+  text-underline-offset: 5px;
+}
+
+span {
+  padding: 10px;
+}
+.row-1,
+.row-2 {
+  margin-bottom: 10px;
+}
+
+input,
+button {
+  padding: 8px;
+}
+
+input {
+  background-color: rgb(76, 74, 74);
+  border: none;
+  color: #fff;
+  width: 155px;
+}
+input:focus {
+  outline: 2px solid skyblue;
+}
+input::placeholder {
+  color: #b3aeae;
+}
+input::-webkit-outer-spin-button,
+::-webkit-inner-spin-button {
+  appearance: none;
+}
+button {
+  border: none;
+  cursor: pointer;
+  background-color: skyblue;
+}
