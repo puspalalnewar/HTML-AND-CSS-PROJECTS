@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
 
 * {
   margin: 0;
@@ -17,27 +17,37 @@ h2 {
   margin-bottom: 10px;
 }
 
-input {
-  padding: 10px;
-  width: 100px;
-  transition: 0.5s width;
-  background: black;
-  color: #fff;
-  border: 0;
-  outline: 0;
-  box-shadow: 0 0px 5px #c6bfbf;
-  border-radius: 10px;
-  background-image: url("./searchIcon.png");
-  background-size: 25px;
-  background-repeat: no-repeat;
-  background-position: 10px;
-  padding-left: 40px;
+.flex-container {
+  display: flex;
+  gap: 10px;
 }
 
-input:focus {
-  width: 100%;
+.card {
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  flex: 1
 }
 
-input::placeholder {
-  color: cadetblue;
+.first {
+  flex:4;
+}
+
+.second {
+  flex:4 ;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 200px 200px 200px;
+  gap: 20px;
+}
+
+.firs {
+  grid-column: span 2;
+}
+
+.car {
+  background-color: blue;
 }
