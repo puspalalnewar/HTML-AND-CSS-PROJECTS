@@ -1,95 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Chessboard</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MizMax Size Grid</title>
     <style>
-      /* Write your code here */
-      /* Each square should be 100px by 100px */
-      /* My colours for white: #f0d9b5, black: #b58863 */
-      .container {
+      .grid-container {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 200px minmax(400px, 500px);
+        grid-template-columns: 200px minmax(400px, 500px);
       }
-      .white {
-        background-color: #f0d9b5;
-        width: 100px;
-        height: 100px;
-      }
-      .black {
-        background-color: #b58863;
-        width: 100px;
-        height: 100px;
+
+      .grid-item {
+        font-size: 3rem;
+        background-color: darkviolet;
+        border: 5px solid goldenrod;
+        color: white;
       }
     </style>
   </head>
 
   <body>
-    <div class="container">
-      <div class="white"></div>
-      <div class="black"></div>
-      <div class="white"></div>
-      <div class="black"></div>
-      <div class="white"></div>
-      <div class="black"></div>
-      <div class="white"></div>
-      <div class="black"></div>
-      <div class="black"></div>
-      <div class="white"></div>
-      <div class="black"></div>
-      <div class="white"></div>
-      <div class="black"></div>
-      <div class="white"></div>
-      <div class="black"></div>
-      <div class="white"></div>
-      <div class="white"></div>
-      <div class="black"></div>
-      <div class="white"></div>
-      <div class="black"></div>
-      <div class="white"></div>
-      <div class="black"></div>
-      <div class="white"></div>
-      <div class="black"></div>
-      <div class="black"></div>
-      <div class="white"></div>
-      <div class="black"></div>
-      <div class="white"></div>
-      <div class="black"></div>
-      <div class="white"></div>
-      <div class="black"></div>
-      <div class="white"></div>
-      <div class="white"></div>
-      <div class="black"></div>
-      <div class="white"></div>
-      <div class="black"></div>
-      <div class="white"></div>
-      <div class="black"></div>
-      <div class="white"></div>
-      <div class="black"></div>
-      <div class="black"></div>
-      <div class="white"></div>
-      <div class="black"></div>
-      <div class="white"></div>
-      <div class="black"></div>
-      <div class="white"></div>
-      <div class="black"></div>
-      <div class="white"></div>
-      <div class="white"></div>
-      <div class="black"></div>
-      <div class="white"></div>
-      <div class="black"></div>
-      <div class="white"></div>
-      <div class="black"></div>
-      <div class="white"></div>
-      <div class="black"></div>
-      <div class="black"></div>
-      <div class="white"></div>
-      <div class="black"></div>
-      <div class="white"></div>
-      <div class="black"></div>
-      <div class="white"></div>
-      <div class="black"></div>
-      <div class="white"></div>
+    <h1>MinMax Size Grid</h1>
+    <div class="grid-container">
+      <div class="grid-item">1</div>
+      <div class="grid-item">2</div>
+      <div class="grid-item">3</div>
+      <div class="grid-item">4</div>
     </div>
   </body>
 </html>
