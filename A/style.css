@@ -8,8 +8,6 @@
 }
 
 body {
-  background-color: black;
-  color: #fff;
   padding: 10px;
 }
 
@@ -17,37 +15,17 @@ h2 {
   margin-bottom: 10px;
 }
 
-.flex-container {
-  display: flex;
-  gap: 10px;
-}
-
-.card {
-  background-color: red;
+::-webkit-scrollbar {
   width: 10px;
   height: 10px;
-  flex: 1
 }
 
-.first {
-  flex:4;
+::-webkit-scrollbar-thumb {
+  background-color: red;
+  border-radius: 10px;
 }
 
-.second {
-  flex:4 ;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 100px 200px 200px 200px;
-  gap: 20px;
-}
-
-.firs {
-  grid-column: span 2;
-}
-
-.car {
-  background-color: blue;
+::-webkit-scrollbar-track {
+  background-color: blueviolet;
+  border-radius: 10px;
 }
