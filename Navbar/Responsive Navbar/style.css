@@ -34,6 +34,7 @@ nav {
 .lists li {
   list-style: none;
   padding: 10px;
+  white-space: nowrap;
 }
 
 .lists li:hover {
@@ -46,6 +47,7 @@ nav {
   margin-right: 10px;
   font-size: larger;
   padding: 10px;
+  cursor: pointer;
 }
 
 .links {
@@ -57,6 +59,7 @@ nav {
   right: 0;
   transition: width 0.5s;
   white-space: nowrap;
+  /* width: 100%; */
 }
 
 .links li {
@@ -64,8 +67,6 @@ nav {
   text-align: center;
   margin-top: 20px;
 }
-
-
 
 .cross-icon {
   position: absolute;

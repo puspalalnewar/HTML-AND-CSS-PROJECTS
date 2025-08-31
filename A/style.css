@@ -8,24 +8,40 @@
 }
 
 body {
+  background-color: black;
+  color: #fff;
   padding: 10px;
 }
 
 h2 {
   margin-bottom: 10px;
+  text-align: center;
 }
 
-::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
+.box {
+  background-color: rgb(70, 69, 66);
+  padding: 10px;
+  width: 100%;
 }
 
-::-webkit-scrollbar-thumb {
-  background-color: red;
-  border-radius: 10px;
+.progress-box {
+  background: red;
+  height: 28px;
 }
 
-::-webkit-scrollbar-track {
-  background-color: blueviolet;
-  border-radius: 10px;
+.progress{
+  background-color: blue;
+  height: 100%;
+  width: 0%;
+}
+
+button {
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  width: 80px;
+  margin-top: 10px;
+  background-color: skyblue;
+  outline: 0;
+  border: 0;
 }

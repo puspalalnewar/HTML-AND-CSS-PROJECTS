@@ -1,18 +1,44 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Ubuntu", sans-serif;
-  color: #fff;
-  background-color: rgb(36, 33, 33);
+html {
+  font-family: "Poppins", sans-serif;
 }
 
-.second-div, .third-div {
+body {
+  background-color: rgb(31, 30, 30);
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: brown;
+}
+
+.small-screen-nav {
   display: none;
 }
 
-.first-div:hover + .second-div + .third-div{
-  display: block;
+.big-screen-nav {
+  list-style: none;
+}
+
+.big-screen-nav li {
+  padding: 10px;
+}
+
+.left {
+  margin-left: 8px;
+}
+
+.right .big-screen-nav {
+  display: flex;
+  gap: 10px;
 }

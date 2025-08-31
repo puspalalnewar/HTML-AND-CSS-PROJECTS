@@ -1,12 +1,25 @@
-const input = document.querySelector("input");
-const warning = document.querySelector(".warning");
+const progress = document.querySelector(".progress");
 
+const btn = document.querySelector("button");
 
-document.addEventListener("keyup", (e)=>{
-    if (e.getModifierState("CapsLock")) {
-        warning.innerHTML = "CapsLock On!!";
-        warning.style.display = "block";
-    }else{
-        warning.style.display = "none";
+btn.addEventListener("click", moveProgress);
+
+let width = 0;
+
+function moveProgress() {
+  if (width === 0) {
+    const timer = setInterval(frame, 100);
+    function frame() {
+      if (width >= 100) {
+        width = 0;
+        clearInterval(timer);
+      } else {
+        width++;
+        progress.style.width = width + "%";
+        progress.innerHTML = width + "%";
+      }
     }
-})
+  }
+}
+
+moveProgress();

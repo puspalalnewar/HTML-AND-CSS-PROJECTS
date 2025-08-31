@@ -8,6 +8,7 @@ crossIcon.addEventListener("click", closeSide);
 function openSide() {
   if (links.style.width === "" || links.style.width === "0px") {
     links.style.width = "200px";
+    // links.style.width = "100%";
   } else {
     links.style.width = "0";
   }
